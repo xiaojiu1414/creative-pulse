@@ -1,0 +1,20 @@
+{
+  "project": "Creative Pulse",
+  "scope": "submission-scaffold",
+  "files": [
+    ".gitignore",
+    "PUBLIC_FILES.json",
+    "README.md",
+    "app.py",
+    "backend.py",
+    "docs/architecture.md",
+    "docs/evaluator-access.md",
+    "docs/evaluator-guide.md",
+    "docs/google-cloud-integration.md",
+    "docs/publication-scope.md",
+    "docs/submission-checklist.md",
+    "docs/validation-report.md",
+    "scripts/check_publication.py",
+    "tests/test_scaffold.py"
+  ]
+}
