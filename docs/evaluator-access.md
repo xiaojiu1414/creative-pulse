@@ -1,22 +1,23 @@
-# Dedicated judge access
+# Evaluator access
 
-Access information has not yet been supplied. No usable account credentials
-are included in this repository.
+## Prototype entry
 
-| Field | Status |
-| --- | --- |
-| Evaluation URL | Pending |
-| Login method | Pending verification |
-| Dedicated judge username | Pending |
-| Password or access mechanism | Pending; provide through the submission access field |
-| Demo workspace | Pending |
-| Allowed actions | Pending verification on the dedicated demo account |
-| Validity period | Must cover the evaluation period |
-| Recovery/contact instructions | Pending |
+[Open Creative Pulse](https://creative.segpulse.cn/). The entry redirects to the
+application login screen.
 
-Evaluators should be able to open the URL, log in using the supplied account,
-and reach the named demonstration workspace without an additional invitation
-or approval. Verify expiry and concurrent-session behavior before submitting.
+Use the dedicated evaluator credentials supplied privately in the competition
+submission materials. The public repository contains no login identifier,
+password, access token, or credential-bearing link.
 
-Use a dedicated demo account with appropriate permissions. Cloud keys,
-production logins, and customer information are not judge access credentials.
+After signing in, follow the [evaluator walkthrough](evaluator-guide.md) to
+inspect a completed report, compare creatives with pulse, and explore campaign
+content.
+
+## Access information
+
+Evaluator account details belong in the submission platform's restricted access
+instructions. The original deck contains access information and is distributed
+separately from this public companion.
+
+Account recovery and access questions should go through the team contact
+provided in the competition submission.

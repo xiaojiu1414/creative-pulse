@@ -1,22 +1,34 @@
 # Scaffold validation
 
-This report covers the upper-layer scaffold only. It does not establish model
-performance, product quality, Google integration, or hosted availability.
+## Service checks
 
-Verified on October 16, 2026: all five scaffold tests passed, and the publication
-check passed for the 14 approved files.
+The five local service tests cover:
 
-Verification commands:
+- An explicitly labeled scaffold health response.
+- The 501 response for an unconfigured backend.
+- Rejection of malformed input.
+- An unknown route.
+- Rejection of an oversized request.
+
+All five tests passed on October 16, 2026. The executable scaffold and test
+sources are unchanged by the October 17 documentation update.
 
 ```bash
 python3 -m unittest discover -s tests -v
 python3 scripts/check_publication.py
 ```
 
-The five service checks cover an explicitly labeled health response, the 501
-response for an unconfigured backend, malformed input, an unknown route, and
-an oversized request. They require no network listener or external service.
+The publication check covers the exact 15-file allowlist, local Markdown links,
+and common credential patterns.
 
-The publication check enforces the exact approved file list, checks local
-Markdown links, and looks for common credential patterns. Those checks do not
-replace manual content review. Actual product evaluation is separate.
+## Public resource checks
+
+On October 17, 2026, anonymous HTTP requests returned:
+
+| Resource | Observed response |
+| --- | --- |
+| Prototype entry | HTTP 200 at the Creative Pulse login screen |
+| Demonstration-video share page | HTTP 200 at the Google Drive file viewer |
+
+These observations cover the public entry pages. Local scaffold tests describe
+HTTP behavior, not model performance or product benchmark results.

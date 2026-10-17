@@ -1,29 +1,45 @@
-# Evaluator guide
+# Evaluator walkthrough
 
-## Actual prototype
+## Open the prototype
 
-The final prototype URL, video, and dedicated judge account are pending. Complete
-the [access instructions](evaluator-access.md) before submission.
+1. Open [Creative Pulse](https://creative.segpulse.cn/).
+2. Sign in using the dedicated evaluator login supplied privately with the
+   competition submission.
+3. Open the creative library and select a completed example.
 
-Suggested walkthrough, to verify on the final deployment:
+The [demonstration video](https://drive.google.com/file/d/1m5DuoPHrOL2D1xbw7a2gBtiSbTjlrpa1/view?usp=sharing)
+shows the product workflow.
 
-1. Open the supplied demo workspace containing demonstration media.
-2. Open a completed creative review and inspect its findings and source locations.
-3. Select multiple creatives and compare them using pulse.
-4. Ask a follow-up about a possible revision and inspect the supporting findings.
-5. Explore the campaign-level content overview.
+## Inspect a review
 
-Document the exact workspace, creative display names, permitted actions, and
-reasonable input limits after checking this flow on the final evaluation URL.
-Use content cleared for demonstration and do not expose customer data.
+Open a completed report and review its summary, format-specific judgments, and
+revision recommendations. Use source references to inspect the corresponding
+media and time positions.
 
-## Local repository
+The demonstration includes a completed Coca-Cola creative review. Starting from
+a completed example lets reviewers inspect the report directly.
 
-`app.py` is an HTTP scaffold, not the running product. Its default review route
-returns 501 and no analysis output. Local checks establish only that the public
-entry and unconfigured service boundary behave as documented.
+## Compare creatives with pulse
 
-## Availability
+Select multiple creatives in the library and choose **Ask Pulse**. Ask:
 
-Keep the evaluation prototype, its dependencies, and repository accessible
-throughout evaluation. A local scaffold test does not establish hosted uptime.
+> Which creative communicates the product benefit most clearly, and why?
+> Cite the supporting evidence.
+
+Follow up with:
+
+> What should we change in the second creative? Cite the supporting evidence.
+
+Inspect the answer alongside its referenced creatives and source locations.
+
+## Explore a campaign
+
+Open the campaign content view to explore themes, related terms, and the
+creatives behind them. Move between the collection view and individual reports
+to inspect the original material.
+
+## Local scaffold
+
+The repository's `app.py` is an HTTP scaffold. Its default review route returns
+501 and no analysis output. The hosted prototype is the product evaluation
+entry; local service checks cover only the public scaffold.

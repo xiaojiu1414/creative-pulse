@@ -1,21 +1,28 @@
-# Google integration status
+# Deployment and integrations
 
-This repository does not substantiate an implemented Google integration. It
-contains no model client or cloud deployment implementation. The final
-description must match the working evaluation prototype.
+## Deployment described in the submission deck
 
-| Service named in the dashboard | Submission evidence still needed |
+The prototype is available at [creative.segpulse.cn](https://creative.segpulse.cn/).
+
+| Role | Technology |
 | --- | --- |
-| Gemini | Confirmed role and observed operation in the demonstrated product |
-| Cloud Run | Actual deployed entry/service URL and revision, if used |
-| Firebase | Actual application role and accessible deployment, if used |
-| Firestore | Actual application role and verification, if used |
+| Application runtime | VM-hosted web application and API |
+| Interface and API | Next.js / FastAPI |
+| Workflow orchestration | Dagster |
+| Generative reasoning | Qwen 3.5 Omni |
+| Auxiliary GPU execution | Kaggle |
+| Media and result storage | Tencent COS |
+| Persistent state | PostgreSQL |
 
-The October 16 Q&A permits a separately maintained product implementation and
-discusses hybrid hosting. It does not remove the need for a real Google-hosted
-evaluation entry or the required Google model participation. The exact service
-combination should follow the submission requirements.
+These responsibilities follow the submission deck reviewed on October 17, 2026.
+The public scaffold exposes a generic service interface; the running product
+and its integrations are maintained separately.
 
-Add a factual high-level integration description and redacted deployment
-evidence after verification. Do not publish service credentials or internal
-implementation materials to fill this section.
+## Google Cloud direction
+
+The deck lists Google Cloud migration as future development and explains that
+payment-method approval prevented the planned deployment. Kaggle provides the
+GPU resources described in the current system.
+
+The technology description above reflects that deployment choice. Migration
+plans and current product components are presented separately.
